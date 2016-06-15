@@ -462,6 +462,10 @@
 	border:1px solid #33373d;
 }
 
+.skill.teal .progress {
+    border:1px solid #009688;
+}
+
 
 .progress .percentage {
 	border-radius: 50px 0 0 50px;
@@ -491,6 +495,14 @@
 
 .skill.teal .progress .percentage {
     background-color: #009688;
+}
+
+.six-sec-ease-in-out {
+    -webkit-transition: width 6s ease-in-out;
+    -moz-transition: width 6s ease-in-out;
+    -ms-transition: width 6s ease-in-out;
+    -o-transition: width 6s ease-in-out;
+    transition: width 6s ease-in-out;
 }
 
 
